@@ -1,4 +1,4 @@
-# hpml_project - Pruning Evaluation using Pytorch and Tensorflow
+# HPML_project - Pruning Evaluation using Pytorch and Tensorflow
 ## About
 The Goal of the project is to determine, which Framework will yield good results on inference models with smaller size
 
@@ -6,14 +6,14 @@ The Goal of the project is to determine, which Framework will yield good results
 
 There are two parts involved in the project
 
-part 1: Execution of pytorch models
+Part 1: Execution of pytorch models
 
-part 2: Execution of Tensor flow models
+Part 2: Execution of Tensor flow models
 
 ---------------
 Step 1: Login to hpc cluster
 
-Step 2: pull code from github repo ```git clone https://github.com/pavanposani/hpml_project.git```
+Step 2: pull code from github repo ```https://github.com/avinash4720/Pruning-Evaluation-of-ResNet-18-34-and-50-using-Pytorch-and-Tensorflow.git```
 
 Step 3: submit pytorch batch job - ```sbatch pytorch/pytorch_job.sh ```
 
