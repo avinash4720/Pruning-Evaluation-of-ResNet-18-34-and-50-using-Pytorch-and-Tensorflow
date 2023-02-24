@@ -1,6 +1,6 @@
 # HPML_project - Pruning Evaluation using Pytorch and Tensorflow
 ## About
-The Goal of the project is to determine, which Framework will yield good results on inference models with smaller size
+The Goal of the project is to determine, which Framework will yield good results on inference models with smaller size. We Perform pruning to extract the inference model with smallest size using frameworks Pytorch, Tensorflow, Caffe
 
 ## Execution
 
