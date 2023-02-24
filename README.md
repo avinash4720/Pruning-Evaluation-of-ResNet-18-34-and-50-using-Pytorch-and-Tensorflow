@@ -23,10 +23,10 @@ Step 5: Respective output files and models along with pruned models are created
 
 ## Dependencies
 ```
-python
-tensorflow
-pytorch
-torchvision
+python-3.9
+tensorflow-1.6 or above
+pytorch-1.2
+torchvision-0.4
 ```
 
 ## Results and output
