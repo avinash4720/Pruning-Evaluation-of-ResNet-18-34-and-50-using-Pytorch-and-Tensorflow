@@ -2,6 +2,15 @@
 ## About
 The Goal of the project is to determine, which Framework will yield good results on inference models with smaller size. We Perform pruning to extract the inference model with smallest size using frameworks Pytorch, Tensorflow, Caffe
 
+## Dependencies
+The project requires the following dependencies:
+```
+python-3.9
+tensorflow-1.6 or above
+pytorch-1.2
+torchvision-0.4
+```
+
 ## Execution
 
 There are two parts involved in the project
@@ -21,18 +30,11 @@ Step 4: submit tensorflow batch job- ```sbatch tensorflow/tensorflow_job.sh```
 
 Step 5: Respective output files and models along with pruned models are created 
 
-## Dependencies
-```
-python-3.9
-tensorflow-1.6 or above
-pytorch-1.2
-torchvision-0.4
-```
 
 ## Results and output
 
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/91353137/209167846-7ff76c99-89f0-43cc-82b0-4a06ff12dd04.png">
-Size comparison
+The following table shows the size comparison between the original models and the pruned models for Pytorch and Tensorflow:
 
 <img width="693" alt="image" src="https://user-images.githubusercontent.com/91353137/209167942-37e83abc-f353-423c-991b-68c7cf2dba05.png">
 Tensorflow Pruning
